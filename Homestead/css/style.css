@@ -1,0 +1,115 @@
+.navbar-brand img {
+    height: 55px;
+}
+
+.banner {
+    height: 50vh;
+}
+
+.logo-section img {
+    height: 100px;
+}
+
+.logo-main-container {
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.testimonial-card {
+    border: 1px solid var(--dark);
+    background-color: var(--white);
+}
+
+.testimonial-card img {
+    height: 190px;
+    width: 100%;
+    object-fit: contain;
+    padding: 0 10px;
+}
+
+.testimonial-card p {
+    font-style: italic;
+}
+
+.testimonial-content {
+    background-color: var(--dark);
+    color: var(--white);
+    padding: 20px;
+}
+
+.custom-accordion .accordion-item {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.custom-accordion .accordion-item .accordion-button {
+    border-radius: 0 !important;
+    background-color: var(--dark);
+    color: var(--white) !important;
+    font-family: header-text;
+    font-size: 20px;
+}
+
+.accordion-body p {
+    font-size: 14px !important;
+}
+
+.custom-accordion .accordion-item .accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.custom-accordion .accordion-item .accordion-button:after {
+    filter: brightness(0) invert(1) !important;
+}
+
+form label {
+    color: var(--white);
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-family: Header-text;
+}
+
+form .form-control {
+    box-shadow: none !important;
+    padding: 10px;
+    font-family: 'Inter-Regular';
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.form-check label {
+    font-size: 16px;
+    font-family: 'Inter-Regular';
+}
+
+.logo-wrapper img {
+    width: 120px;
+}
+
+.feature-benefit-card img {
+    height: 50px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.feature-benefit-card {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 767px) {
+    .person-image {
+        height: 200px;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .logo-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .logo-wrapper img {
+        height: 100px;
+    }
+}

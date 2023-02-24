@@ -1,0 +1,93 @@
+:root {
+    --primary: #B0BCAF;
+    --dark: #212529;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url(../fonts/PlayfairDisplay-Bold.woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/Inter-Regular.woff);
+    font-weight: 400;
+}
+
+.bg-primary {
+    background: var(--primary) !important;
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.text-dark {
+    color: var(--dark) !important;
+}
+
+.text-white {
+    color: var(--white) !important;
+}
+
+.text-black {
+    color: var(--black) !important;
+}
+
+.header-text {
+    font-family: PlayfairDisplay-Bold !important;
+}
+
+p,
+ul li,
+.btn {
+    font-family: Inter-Regular !important;
+}
+
+.btn {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 20px !important;
+    border-radius: 0;
+    color: var(--dark) !important;
+}
+
+.btn-primary,
+.btn-secondary {
+    background-color: transparent !important;
+    border: 2px solid var(--dark) !important;
+    color: var(--dark) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary) !important;
+    border: 2px solid var(--primary) !important;
+    color: var(--dark) !important;
+}
+
+.btn-secondary:hover {
+    background-color: var(--dark) !important;
+    border: 2px solid var(--dark) !important;
+    color: var(--primary) !important;
+}
+
+.btn-tertiary {
+    background-color: transparent;
+    border-color: var(--white);
+    color: var(--white) !important;
+}
+
+.btn-tertiary:hover {
+    background-color: var(--white);
+    border-color: var(--white);
+    color: var(--dark) !important;
+}
+
+@media (max-width: 767px) {
+    .btn {
+        width: 100% !important;
+    }
+}
