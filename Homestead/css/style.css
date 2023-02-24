@@ -112,4 +112,12 @@ form .form-control {
     .logo-wrapper img {
         height: 100px;
     }
+
+    .testimonial-section iframe {
+        width: 100% !important;
+    }
+
+    .testimonial-card {
+        margin-bottom: 20px;
+    }
 }
